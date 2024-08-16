@@ -97,6 +97,8 @@ route.delete("/person/:id",async function(req,res){
     } catch (error) {
         console.log(error);
     }
-})
+});
+
+// Comment added for get New Data.
 
 module.exports = route;
